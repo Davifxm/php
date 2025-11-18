@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Login - Jogo Quiz</title>
+        <style>
+        .login { max-width:360px; margin:60px auto; padding:18px; border:1px solid #ccc; border-radius:6px; }
+        label{display:block;margin-top:8px}
+        input[type=text], input[type=password]{width:100%;padding:8px;margin-top:4px}
+        button{margin-top:12px;padding:8px 12px}
+        </style>
+</head>
+<body>
+
+<div class="login">
+    <h2>Entrar</h2>
+    <form action="login.php" method="POST">
+        <label for="nome">Nome</label>
+        <input type="text" name="nome" required>
+        <label for="senha">Senha</label>
+        <input type="password" name="senha" required>
+        <button type="submit">Entrar</button>
+    </form>
+
+    <p>Não tem conta? <a href="cadastro.html">Criar conta</a></p>
+</div>
+
+</body>
+</html>
+</html>
